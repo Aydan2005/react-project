@@ -1,0 +1,7 @@
+.main{
+  display: flex;
+}
+.section2{
+  position: fixed;
+  left: 1040px;
+}

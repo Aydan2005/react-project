@@ -1,0 +1,54 @@
+.input{
+    padding: 10px;
+    width: 400px;
+    font-size: 18px;
+    outline: 4px solid darkviolet;
+    border: 0px;
+}
+.button1{
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: darkviolet;
+    border: 1px solid darkviolet;
+}
+.button1:disabled{
+    cursor: not-allowed;
+}
+.button1:hover{
+    background-color: rgb(204, 85, 255);
+    border: 1px solid rgb(204, 85, 255);
+}
+.movies{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.movie{
+    display: flex;
+    gap: 20px;
+}
+.img{
+    width: 200px;
+}
+.button2{
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+}
+.button2:hover{
+    background-color: darkslateblue;
+    border: 1px solid darkslateblue;
+}
+.button2:disabled{
+    cursor: not-allowed;
+    background-color: grey;
+    border: grey;
+}
